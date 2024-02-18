@@ -1,0 +1,422 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background: #cecece;
+    /* overflow: auto; */
+    height: 1500px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: rgba(166, 166, 168, 0.50);
+    height: 80px;
+    /* border-bottom: solid #272635 1px; */
+    width: 100%;
+}
+
+.container {
+    width: 95%;
+    /* max-width: 1200px; Added max-width to limit the container width */
+    margin: 0 auto;
+    /* Centering the container */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    margin-left: 30px;
+}
+
+.navbar-container {
+    width: 600px;
+    /* Changed width to auto */
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    font-family: 'Anybody', Helvetica;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    color: #272635;
+}
+
+.home-container {
+    background: rgba(166, 166, 168, 0.50);
+    padding: 15px;
+}
+
+.container-1 {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* Added padding for better spacing */
+}
+
+.text-container-1 {
+    margin: 30px;
+}
+
+.text-container-1,
+h2,
+h3 {
+    color: #000;
+    text-align: left;
+    /* margin-left: 70px; */
+    font-family: "Aoboshi One";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-container-1 p {
+    color: #000;
+    text-align: left;
+    /* margin-left: 80px; */
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.explore-button {
+    width: 140px;
+    height: 50px;
+    border-radius: 7px;
+    background: #272635;
+    color: #cecece;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+    border: none;
+    /* display: block; Vertically centering */
+}
+
+.explore-button:hover {
+    color: #b1e5f2;
+    transition: 500ms;
+}
+
+.image-container-1 {
+    margin: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.about-us-container {
+    /* background: rgba(166, 166, 168, 0.50); */
+    padding: 15px;
+}
+
+.container-2 {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* Added padding for better spacing */
+}
+
+.text-container-2 {
+    margin: 20px;
+}
+
+.text-container-2 h3 {
+    color: #000;
+    text-align: right;
+    /* margin-left: 70px; */
+    font-family: "Aoboshi One";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-container-2 p {
+    color: #000;
+    text-align: right;
+    /* margin-left: 80px; */
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.image-container-2 {
+    margin: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.services-container {
+    background: rgba(166, 166, 168, 0.50);
+    padding: 15px;
+
+}
+
+/* .container-3 {
+    display: flex;
+    /* flex-direction: column; */
+/* justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Added padding for better spacing */
+/* } */
+.text-container-3 {
+    margin: 30px;
+}
+
+.text-container-3 h2 {
+    color: #000;
+    text-align: left;
+    /* margin-left: 70px; */
+    font-family: "Aoboshi One";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.services-button-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.services-button-container button {
+    width: 150px;
+    height: 170px;
+    border: none;
+    outline: none;
+    background: #CECECE;
+    font-size: 16px;
+}
+
+.services-button-container button:hover {
+    background: rgba(166, 166, 168, 0.20);
+    transition: ease-in 150ms;
+}
+
+.training-container {
+    /* background: rgba(166, 166, 168, 0.50); */
+    padding: 15px;
+}
+
+.container-4 {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    /* Added padding for better spacing */
+}
+
+.text-container-4 {
+    margin: 20px;
+}
+
+.text-container-4 h3 {
+    color: #000;
+    text-align: right;
+    /* margin-left: 70px; */
+    font-family: "Aoboshi One";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 20px;
+}
+
+.text-container-4 p {
+    color: #000;
+    text-align: center;
+    /* margin-left: 80px; */
+    font-family: "Inter";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.image-container-4 {
+    margin: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.technologies-container {
+    background: rgba(166, 166, 168, 0.50);
+    padding: 15px;
+
+}
+
+.container-5 {
+    margin: 30px;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+    /* Center-align the contents */
+    margin: 40px;
+}
+
+.slideshow-container .text {
+    color: #000;
+    text-align: center;
+    /* margin-left: 70px; */
+    font-family: "Aoboshi One";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 20px;
+}
+
+.slideshow-container img {
+    width: 400px;
+    padding: 10px;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    max-width: 100%;
+    /* Ensure the image doesn't exceed its container */
+}
+
+.contact-us-container {
+    margin: 40px;
+}
+
+.container-6 {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    /* Added padding for better spacing */
+}
+
+.contact-us-container input {
+    width: 300px;
+    background: rgba(166, 166, 168, 0.50);
+    border: none;
+    height: 10px;
+    padding: 10px;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contact-us-container textarea {
+    width: 315px;
+    height: 100px;
+    background: rgba(166, 166, 168, 0.50);
+    border: none;
+    outline: none;
+    padding: 15px;
+}
+
+.contact-us-container label {
+    font-family: "Inter";
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.submit-button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    background: #272635;
+    color: #cecece;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+    border: none;
+}
+
+.contact-us-container a {
+    text-decoration: none;
+}
+
+.other-details-container {
+    margin: 20px;
+}
+
+.other-details-container p {
+    font-family: "inter";
+}
+
+.other-details-container h4,
+h5 {
+    font-family: "Aoboshi One";
+}
+
+.social-links-container {
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer {
+    background: #272635;
+    color: #CECECE;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+}
+
+.footer-container svg {
+    width: 10px;
+    margin-right: 5px;
+}
